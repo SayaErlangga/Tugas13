@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:orientation="vertical"
+    android:padding="30dp">
+    <EditText
+        android:id="@+id/img_cover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edit_text"
+        android:layout_marginBottom="20dp"
+        android:padding="15dp"
+        android:hint="URL Cover"/>
+    <EditText
+        android:id="@+id/edt_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edit_text"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Judul"/>
+    <EditText
+        android:id="@+id/edt_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edit_text"
+        android:layout_marginBottom="20dp"
+        android:padding="15dp"
+        android:hint="Rating"/>
+    <EditText
+        android:id="@+id/edt_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edit_text"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp"
+
+        android:hint="Tag"/>
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Tambah Data"/>
+</LinearLayout>
